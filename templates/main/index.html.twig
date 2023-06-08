@@ -1,14 +1,25 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Accueil{% endblock %}
+{% block title %}Accueil
+{% endblock %}
 
 {% block body %}
-   <div class="container">
-         <div class="row mt-5">
-             <div class="col-sm-8 offset-sm-2">
-                 <h1>Portfolio</h1>
-                 <p>Salutation</p>
-             </div>
-         </div>
-     </div>
+	<div class="container-fluid">
+		<div class="row m-2 d-flex justify-content-around  ">
+
+			<div class="col-md-4 ">
+
+				<image src={{asset('assets/images/cafe.jpg')}} width="100%" height:"100%" class="rounded img-thumbnail img-fluid " alt="Image d'accueil">
+			</div>
+
+
+			<div class="col-md-4  font-titre  d-block align-self-center ">
+				<h1 class ="fw-bold">
+					Bonjour , je suis Anne Wilga Développeuse Web junior
+				</h1>
+			</div>
+
+		</div>
+	</div>
+
 {% endblock %}
