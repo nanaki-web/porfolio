@@ -1,6 +1,27 @@
+@font-face {
+    font-family: 'indie_flowerregular';
+    src: url('indieflower-regular-webfont.woff2') format('woff2'),
+         url('indieflower-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
 body {
-    background-color: #222222;
+    background-color: #486779;
 }
 h1, p {
     color: #C9C9C9;
 }
+
+.font-titre{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Indie Flower', cursive;
+    line-height:70px;
+    color:#000000;
+    
+}
+
